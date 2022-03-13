@@ -17,7 +17,7 @@ public class SignIn {
 
         try {
             FileWriter myWriter = new FileWriter("SignIn.txt");
-            myWriter.write("We will change this to read the textbox in the andriod studio not able to get input from user here");
+            myWriter.write("We will change this to read the textbox in the andriod studio not wokring here");
             myWriter.close();
             System.out.println("Successfully wrote to the file.");
         } catch (IOException e) {
